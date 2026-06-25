@@ -11,7 +11,7 @@ import { ImNewspaper } from "react-icons/im";
 
 const Sidebar = ({sidebar,category,setCategory}) => {
   return (
-    <div className={`shadow-md fixed top-16 bottom-0 overflow-y-auto transition-all duration-300 ${sidebar ?'w-[15%]':'w-[5%]'}`}>
+    <div className={`shadow-md scrollbar-hide fixed top-16 bottom-0 overflow-y-auto transition-all duration-300 ${sidebar ?'w-[15%]':'w-[5%]'}`}>
         <div>
             {[
                 { icon: <IoMdHome className='text-gray-700 text-2xl' />, text: "Home" ,id:0},
